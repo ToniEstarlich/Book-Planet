@@ -1,0 +1,127 @@
+.footer {
+    background-color: #533420; /* Dark background */
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-social {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-social h3 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 1.2rem;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social ul li a:hover {
+    color: #ffbb00; /* Gold accent for hover */
+}
+
+.footer-social ul li a i {
+    margin-right: 0.8rem; /* Adds space between the icon and the text */
+    font-size: 1.4rem;
+}
+
+/* Center Links */
+.footer-links {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-links h3 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 1.2rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ffbb00; /* Gold accent for hover */
+}
+
+/* Logo on the right */
+.footer-logo {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-logo h2 {
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo p {
+    color: #d3d3d3;
+    font-size: 1.2rem;
+}
+
+/* Copyright section */
+.footer-bottom {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    color: #d3d3d3;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Adds a subtle line above the copyright */
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo, .footer-links, .footer-social {
+        margin-bottom: 2rem;
+    }
+
+    .footer-logo, .footer-links, .footer-social {
+        text-align: center;
+    }
+}

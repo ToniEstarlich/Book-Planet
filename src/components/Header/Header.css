@@ -1,0 +1,21 @@
+.header-content{
+    min-height: 75vh;
+    background: linear-gradient(rgba(83, 52, 32, 0.3), rgba(83, 52, 32, 0.5)), url("../../images/Header-books.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    font-size: 8.2rem;
+    color: #e2c5ac; /* Grain Brown */
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+    color: #ffffff; /* Edward */
+    font-size: 3.2rem;
+    background-color: rgba(82, 82, 82, 0.7);
+    padding: 1rem;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
