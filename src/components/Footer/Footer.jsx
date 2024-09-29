@@ -40,14 +40,14 @@ const Footer = () => {
 
         {/* Logo and Info Section */}
         <div className='footer-logo'>
-          <h2>Book Planet</h2>
+          <h2>Planet Book</h2>
           <p>Your gateway to knowledge</p>
         </div>
       </div>
 
       {/* Footer Bottom Section */}
       <div className='footer-bottom'>
-        <p>&copy; 2024 Book Planet. All Rights Reserved.</p>
+        <p>&copy; 2024 Planet Book. All Rights Reserved.</p>
       </div>
     </footer>
   );
