@@ -32,7 +32,7 @@ const Footer = () => {
         <div className='footer-links'>
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#!">About</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="#!">Contact</a></li>
             <li><a href="#!">Privacy Policy</a></li>
           </ul>

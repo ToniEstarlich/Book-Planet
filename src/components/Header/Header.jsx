@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "../Navbar/Navbar";
 import "./Header.css";
-import Footer from '../Footer/Footer';
 import SearchForm from '../SearchForm/SearchForm'; 
 
 
@@ -16,7 +15,6 @@ const Header = () => {
                         <h2 className='header-text fs-18 fw-3'>Discover your next favorite read from a galaxy of genres. Search, explore, and dive into a world where every book is a new adventure waiting to be found.</h2>
                         <SearchForm />
                     </div>
-                    <Footer />
                 </header>
             </div>
         </>
