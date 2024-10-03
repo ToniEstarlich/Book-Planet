@@ -17,7 +17,7 @@ const Book = ({ id, title, cover_img, author, edition_count, first_publish_year 
 
         <div className='book-item-info-item author fs-15'>
           <span className='text-capitalize fw-7'>Author: </span>
-          {/* Comprobamos si author existe y es un array antes de hacer join */}
+          {/* We check if author exists and is an array before joining */}
           <span>{author && Array.isArray(author) ? author.join(", ") : "Unknown Author"}</span>
         </div>
 
